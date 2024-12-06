@@ -1,0 +1,73 @@
+body {
+    font-family: 'Barlow', sans-serif;
+  background-color: #1B1F27;
+  color: #CBD0F7;
+}
+
+a {
+
+    color: #CBD0F7;
+    text-decoration: none;
+    margin-left: 10px;
+  
+  }
+.div-backup-container {
+    display: flex;
+    justify-content: center; 
+    gap: 30px; 
+    margin: 20px; 
+}
+
+
+.div-backup,
+.div-back-import {
+    background-color: #181920; /* Cor de fundo escura */
+    border-radius: 20px; 
+    padding: 30px; /* Espaçamento interno */
+    width: 300px; /* Largura fixa */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+/* Títulos dentro dos formulários */
+.div-backup h2,
+.div-back-import h2 {
+    color: #ffffff; /* Cor do texto */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os inputs */
+.div-backup input,
+.div-back-import input {
+    display: block;
+    width: calc(100% - 50px);
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background-color: #181920;
+    color: #fff;
+}
+
+/* Botões de envio */
+.div-backup input[type="submit"],
+.div-back-import input[type="submit"] {
+    background-color:  #5568FE;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.div-backup input[type="submit"]:hover,
+.div-back-import input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Botão de arquivo */
+.div-back-import input[type="file"] {
+    margin: 10px auto;
+    color: #fff;
+}
